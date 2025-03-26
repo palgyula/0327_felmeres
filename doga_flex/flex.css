@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffdd00;
+    padding: 15px;
+}
+
+header * {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+} 
+
+header ul, header ul li {
+    text-align: left;
+}
+
+header ul li {
+    margin-top: 5px;
+}
+
+header table {
+    margin: 20px auto 20px;
+    border-spacing: 0;
+    background-color: hsl(52, 100%, 85%);
+    border: 2px solid black;
+    outline: 10px solid hsl(52, 100%, 85%);
+}
+
+header table td, header table th {
+    border: 1px solid black;
+    padding: 5px;
+}
