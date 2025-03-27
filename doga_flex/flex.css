@@ -35,3 +35,90 @@ header table td, header table th {
     border: 1px solid black;
     padding: 5px;
 }
+
+@media only screen and (min-width: 1150px){
+
+.wrapper{
+    background-color: #6fb8b0;
+    display: flex;
+    padding: 100px 50px 100px 50px;
+    gap: 15px;
+}
+
+section div{
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+    height: 450px;
+    box-shadow: 0 10px 10px 0;
+}
+section div:nth-of-type(1)
+{
+background-color: #ffc300;
+}
+
+section div:nth-of-type(2)
+{
+background-color: #ffd000;
+}
+
+section div:nth-of-type(3)
+{
+background-color: #ffdd00;
+}
+
+section div:nth-of-type(4)
+{
+background-color: #ffea00;
+}
+
+section p{
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+}
+
+@media only screen and (max-width: 1150px)
+{
+
+    .wrapper{
+        background-color: #6fb8b0;
+        padding: 100px 50px 100px 50px;
+        gap: 15px;
+    }
+
+    section div:nth-of-type(1)
+    {
+    background-color: #ffc300;
+    }
+
+
+    section div:nth-of-type(2)
+    {
+    background-color: #ffd000;
+    }
+
+    section div:nth-of-type(3)
+    {
+    background-color: #ffdd00; 
+    }
+
+    section div:nth-of-type(4)
+    {
+    background-color: #ffea00;
+    }
+
+    section p{
+        border-top: 1px solid black;
+        padding-top: 10px;
+    }
+
+    section div{
+        border-radius: 15px;
+        text-align: center;
+        padding: 30px;
+        margin-top: 30px;
+        box-shadow: 0 10px 10px 0;
+    }
+
+}
